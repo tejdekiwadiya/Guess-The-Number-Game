@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guess The Number Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="containr">
+        <div class="ele"></div>
+        <h3 class="title-line">
+            I am thinking of a number between 1-100.<br>
+            Can you guess it?
+        </h3>
+        <div class="game-bar">
+            <input type="number" placeholder="0" class="button" id="number" name="number">
+            <button type="button" class="button-guess" id="button">Guess</button>
+        </div>
+
+        <div class="calcu">
+            <div>
+                No. Of Guesses: <span class="no_guess" id="no_guess"><span id="rm">0</span>
+            </div>
+            <div>
+                Guessed Numbers are: <div class="no_guessed" id="num_guess"><span id="remove"></span></div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
