@@ -1,1 +1,2 @@
-# Guess-The-Number-Game
+# Guess The Number Game
+The Guess The Number Game is an interactive web-based project created using JavaScript, HTML, and CSS. It challenges players to guess a randomly generated number within a specified range. With its engaging design and user-friendly interface, players can input their guesses and receive feedback on whether their guess is too high or too low. The game keeps track of the number of attempts and provides a winning message when the correct number is guessed. It offers a fun and addictive experience, showcasing the power of JavaScript in creating dynamic and interactive games on the web.
