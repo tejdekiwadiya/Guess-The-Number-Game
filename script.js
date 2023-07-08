@@ -76,5 +76,13 @@ function valid() {
             document.querySelector('.alart').remove()
         }, 1500)
     }
+
 }
+
 button.addEventListener('click', valid)
+
+number_value.addEventListener('keypress', function (event) {
+    if (event.key === 'Enter') {
+        valid();
+    }
+});
